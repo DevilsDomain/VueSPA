@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "format": "npx prettier --write .",
     "check": "npx prettier --check .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "npx eslint"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
