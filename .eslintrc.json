@@ -6,10 +6,11 @@
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": ["/Users/alaraerzincan/Webtooling/SPAs/VueSPA/tsconfig.json"]
   },
-  "plugins": ["vue"],
-  "rules": {},
+  "plugins": ["vue", "@typescript-eslint", "prettier"],
+  "rules": { "prettier/prettier": "error" },
   "extends": [
     "plugin:vue/vue3-essential",
     "standard-with-typescript",
