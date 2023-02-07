@@ -7,7 +7,7 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": ["/Users/alaraerzincan/Webtooling/SPAs/VueSPA/tsconfig.json"]
+    "project": ["./tsconfig.json"]
   },
   "plugins": ["vue", "@typescript-eslint", "prettier"],
   "rules": { "prettier/prettier": "error" },
