@@ -9,5 +9,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - name: Run test on the source code
+      - name: install dependencies
+        run: npm i
+      - name: Run tests
         run: npm run test
