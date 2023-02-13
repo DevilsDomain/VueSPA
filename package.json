@@ -11,7 +11,9 @@
     "check": "npx prettier --check .",
     "prepare": "husky install",
     "lint": "eslint src --ext .ts,.vue",
-    "test": "vitest --dom"
+    "test": "vitest --dom",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
@@ -21,11 +23,20 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.1.37",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.16",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-typescript": "^11.0.2",
     "@vue/test-utils": "^2.2.10",
+    "babel-loader": "^8.3.0",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^34.0.0",
@@ -33,6 +44,7 @@
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-storybook": "^0.6.10",
     "eslint-plugin-vue": "^9.9.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
@@ -41,6 +53,7 @@
     "vite": "^4.0.0",
     "vitest": "^0.28.4",
     "vue-eslint-parser": "^9.1.0",
+    "vue-loader": "^16.8.3",
     "vue-tsc": "^1.0.11"
   }
 }
