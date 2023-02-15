@@ -10,7 +10,15 @@
     "project": ["./tsconfig.json"]
   },
   "plugins": ["vue", "@typescript-eslint", "prettier"],
-  "rules": { "prettier/prettier": "error" },
+  "rules": {
+    "prettier/prettier": "error",
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        "ignores": []
+      }
+    ]
+  },
   "extends": [
     "plugin:vue/vue3-essential",
     "standard-with-typescript",
