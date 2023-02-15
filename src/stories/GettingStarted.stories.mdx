@@ -1,0 +1,71 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Example/Getting Started" />
+
+# Connoisseur's Delight: the luxury online coffee shop
+
+## About
+
+This ecommorce allows all coffee lovers to discover and enjoy carfully selected blends from the comfort
+of their home.
+
+# Getting Started
+
+## How to run Connoisseur's Delight?
+
+### 1) clone the repo
+
+First and foremost, you can find [Connoisseur's Delight](https://github.com/DevilsDomain/VueSPA.git)
+on my github page. You can either fork the repository or directly clone it into your local enviroment with
+the fallowing command: <br/>
+`git clone <repoLink>`
+
+### 2) Install Dependencies
+
+Install all the dependncies using <br/>
+`npm i`
+
+### 3) Run the Project!
+
+now that u have everything installed, u are ready to run the project with <br/>
+`npm run dev`
+
+# Tools used in the Project
+
+## This project uses a few helper tools to make the developer experince better
+
+- [Eslint](https://eslint.org/docs/latest/use/getting-started) - used for enforcing good code practices and conventions, with the aim of making the code more consistent and avoid bugs.
+- [Prettier](https://prettier.io/docs/en/install.html) - Prettier is an opinionated code formatter which enforces a consistent code style and in this project is used as a [plugin](https://github.com/prettier/eslint-config-prettier) for Eslint
+- [Husky](https://github.com/typicode/husky) - helps to create and work with githooks and run all the scripts that need to work at certain stages.
+- [Vitest](https://vitest.dev/guide/) - is the native testing library created especially for Vue.
+
+# Scripts
+
+## This projects comes with quite a few scripts which you will be using, lets get to know them!
+
+### note you can run all of these with the fallowing way, `npm run <commandName>`
+
+- `dev` - used to start the developemnt server
+- `build` - npm run build creates a build directory with a production build of your app
+- `preview` - it will boot up a local static web server that serves the files. It's an easy way to check if the production build looks OK in your local environment.
+- `format` - will format the code according to the specified rules to keep it consistent.
+- `check` - will run prettier and check for any code style inconsistencies.
+- `prepare` - used to set up husky
+- `lint` - will run Eslint and lint your project for all the specified file extentions, will be telling u possible warnings or errors in your code style.
+- `test` - used to run the .test files in the /tests directory.
+- `storybook` - will run storybook where you can see all your components
+- `build-storybook` - will build the components ready for production.
+
+# Git Hooks and Actions
+
+## Git Hooks
+
+This project has a git hook names `lint-staged` which will run prettier before commiting the
+files chnages to make sure everything is formated correctly.
+
+## Git Actions
+
+### You can find all the git actions for this project in the .github/workflows folder.
+
+- eslint+prettier will make sure the code is properly formatted and linted
+- test will run all the tests in the project.
