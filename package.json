@@ -12,7 +12,7 @@
     "prepare": "husky install",
     "lint": "eslint src --ext .ts,.vue",
     "test": "vitest --dom",
-    "storybook": "start-storybook",
+    "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "lint-staged": {
