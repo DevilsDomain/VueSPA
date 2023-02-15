@@ -13,7 +13,7 @@
     "lint": "eslint src --ext .ts,.vue",
     "test": "vitest --dom",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

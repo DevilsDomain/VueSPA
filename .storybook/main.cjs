@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
@@ -11,5 +12,15 @@ module.exports = {
   },
   features: {
     storyStoreV7: true,
+  },
+  async viteFinal(config, options) {
+    config.base = '/storybook/';
+
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': '/src',
+    };
+
+    return config;
   },
 };
