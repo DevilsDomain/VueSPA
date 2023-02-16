@@ -3,6 +3,7 @@
 import NavBar from './components/NavBar.vue';
 import Button from './components/Button.vue';
 import ItemCard from './components/ItemCard.vue';
+import Footer from './components/Fotter.vue';
 </script>
 
 <template>
@@ -45,6 +46,8 @@ import ItemCard from './components/ItemCard.vue';
       <ItemCard image="src/assets/image 8.png"></ItemCard>
     </div>
   </div>
+  <!-- footer -->
+  <Footer></Footer>
 </template>
 
 <style scoped>
@@ -131,7 +134,7 @@ p {
 }
 .shop {
   background-color: #2d2424;
-  height: 1500px;
+  height: 1700px;
 }
 .shop-items {
   display: flex;
