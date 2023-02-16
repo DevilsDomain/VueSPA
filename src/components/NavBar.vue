@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Logo from './Logo.vue';
+import store from './store';
 
 type variants = 'primary' | 'secondary';
 
@@ -15,6 +16,7 @@ const props = defineProps<{
     <p>ABOUT</p>
     <p>SHOP</p>
     <div v-if="props.var === `secondary`">
+      <p>{{ store.count }}</p>
       <img src="@/assets/cart.svg" alt="shopping cart" />
     </div>
   </div>
@@ -64,7 +66,6 @@ const props = defineProps<{
     padding-bottom: 10px;
   }
   img {
-    padding-top: 30px;
   }
 }
 </style>

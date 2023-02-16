@@ -33,8 +33,17 @@ import ItemCard from './components/ItemCard.vue';
       <NavBar var="secondary"></NavBar>
     </div>
     <!-- shop items -->
-    <h1>Discover Our Blends</h1>
-    <ItemCard></ItemCard>
+    <h1 class="shop-h1-align">Discover Our Blends</h1>
+    <div class="shop-items">
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="src/assets/image 8.png"></ItemCard>
+    </div>
   </div>
 </template>
 
@@ -109,6 +118,11 @@ p {
 .hero-h1-padding {
   padding-top: 20px;
 }
+.shop-h1-align {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .buttons {
   display: flex;
   flex-direction: row;
@@ -117,5 +131,12 @@ p {
 }
 .shop {
   background-color: #2d2424;
+  height: 1500px;
+}
+.shop-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 50px;
 }
 </style>
