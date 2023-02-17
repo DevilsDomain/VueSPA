@@ -1,2 +1,2 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<template><img src="@/assets/logo.svg" alt="" /></template>
+<template><img src="/images/logo.svg" alt="" /></template>

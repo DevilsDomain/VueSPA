@@ -24,7 +24,7 @@ import Footer from './components/Fotter.vue';
     </div>
     <!-- right -->
     <div class="right">
-      <img src="@/assets/coffeeBeans.png" alt="coffe beand being roasted" />
+      <img src="/images/coffeeBeans.png" alt="coffe beand being roasted" />
     </div>
   </div>
   <!-- SHOP -->
@@ -36,14 +36,14 @@ import Footer from './components/Fotter.vue';
     <!-- shop items -->
     <h1 class="shop-h1-align">Discover Our Blends</h1>
     <div class="shop-items">
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
-      <ItemCard image="src/assets/image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
+      <ItemCard image="image 8.png"></ItemCard>
     </div>
   </div>
   <!-- footer -->

@@ -47,7 +47,7 @@ p {
   border: none;
   box-shadow: none;
   background-color: transparent;
-  background-image: url('src/assets/Polygon1.svg');
+  background-image: url('/images/Polygon1.svg');
   transform: scale(5);
   margin: 0px;
   margin-top: 10px;
@@ -57,7 +57,7 @@ p {
   border: none;
   box-shadow: none;
   background-color: transparent;
-  background-image: url('src/assets/Polygon1.svg');
+  background-image: url('/images/Polygon1.svg');
   transform: rotate(180deg) scale(5);
   margin: 0px;
   margin-left: 1.7px;

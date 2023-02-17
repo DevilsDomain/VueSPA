@@ -17,7 +17,7 @@ const props = defineProps<{
     <p>SHOP</p>
     <div v-if="props.var === `secondary`">
       <p>{{ store.count }}</p>
-      <img src="@/assets/cart.svg" alt="shopping cart" />
+      <img src="/images/cart.svg" alt="shopping cart" />
     </div>
   </div>
 </template>
@@ -64,8 +64,6 @@ const props = defineProps<{
     padding-left: 85px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  img {
   }
 }
 </style>

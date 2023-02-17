@@ -30,24 +30,20 @@ import Logo from './Logo.vue';
     <!-- fallow -->
     <div class="top-padding">
       <h3>FALLOW US</h3>
+      <img class="gap-between" src="/images/bxl_instagram.svg" alt="ig icon" />
       <img
         class="gap-between"
-        src="../assets/bxl_instagram.svg"
-        alt="ig icon"
-      />
-      <img
-        class="gap-between"
-        src="../assets/ph_twitter-logo.svg"
+        src="/images/ph_twitter-logo.svg"
         alt="twitter icon"
       />
       <img
         class="gap-between"
-        src="../assets/ri_facebook-fill.svg"
+        src="/images/ri_facebook-fill.svg"
         alt="facebook icon"
       />
       <img
         class="gap-between"
-        src="../assets/ant-design_youtube-outlined.svg"
+        src="/images/ant-design_youtube-outlined.svg"
         alt="youtube icon"
       />
     </div>
