@@ -13,14 +13,14 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  async viteFinal(config, options) {
-    config.base = '/storybook/';
+  // async viteFinal(config, options) {
+  //   config.base = '/storybook/';
 
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': '/src',
-    };
+  //   config.resolve.alias = {
+  //     ...config.resolve.alias,
+  //     '/': '/images/',
+  //   };
 
-    return config;
-  },
+  //   return config;
+  // },
 };
