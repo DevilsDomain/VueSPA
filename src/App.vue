@@ -36,14 +36,14 @@ import Footer from './components/Fotter.vue';
     <!-- shop items -->
     <h1 class="shop-h1-align">Discover Our Blends</h1>
     <div class="shop-items">
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
-      <ItemCard image="image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
+      <ItemCard image="/images/image8.png"></ItemCard>
     </div>
   </div>
   <!-- footer -->
